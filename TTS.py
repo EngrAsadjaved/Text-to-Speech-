@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from TTS.api import TTS
+from TTS.api import TTS  # Make sure this import is correct
 
 # Initialize the Tacotron2-DDC model
 model_name = "tts_models/en/ljspeech/tacotron2-DDC"
